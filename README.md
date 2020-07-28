@@ -13,8 +13,8 @@ The input string is modified by forming a new string that takes only every 3rd c
 * $ pip3 install virtualenv
 * $ virtualenv env
 * $ source env/bin/activate
-* $ pip3 install flask
+* (env) $ pip3 install flask
 
 ##### Demo
-
+<img src="test.gif" width="50%"/>
 
