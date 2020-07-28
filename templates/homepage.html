@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h3 style="color:blue">Test Application</h3>
+    </head>
+    <body style="background-color: lightslategray">
+        <div class="container">
+            <form action="/test" method="POST">
+                <input type="text" name="string_to_cut" placeholder="Enter the text">
+                <button style="color:green" type="Submit">ENTER</button>
+            </form>
+        </div>
+        <div class="container">
+            <p> {{ output }}</p>
+        </div>
+       
+    </body>
+</html>
